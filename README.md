@@ -1,4 +1,4 @@
-# Healthcare Stroke Prediction using Enssemble modelling
+# Healthcare Stroke Prediction using Enssemble Learning
 
 This project aims to predict the occurrence of strokes based on various health-related features using ensemble learning techniques. The dataset used contains information about patients' demographics, health conditions, and lifestyle choices.
 
