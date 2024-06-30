@@ -1,6 +1,6 @@
-# Heart Stroke Prediction
+# Healthcare Stroke Prediction using Enssemble modelling
 
-This project aims to predict the occurrence of strokes based on various health-related features using different machine learning models. The dataset used contains information about patients' demographics, health conditions, and lifestyle choices.
+This project aims to predict the occurrence of strokes based on various health-related features using ensemble learning techniques. The dataset used contains information about patients' demographics, health conditions, and lifestyle choices.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -15,7 +15,7 @@ This project aims to predict the occurrence of strokes based on various health-r
 - [License](#license)
 
 ## Project Overview
-The goal of this project is to build and evaluate machine learning models to predict whether a patient is likely to have a stroke. The models used include Logistic Regression, Decision Tree, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and various ensemble methods such as Bagging, AdaBoost, Gradient Boosting, Extra Trees, and Voting Classifier.
+The goal of this project is to build and evaluate machine learning models to predict whether a patient is likely to have a stroke, with a particular emphasis on ensemble learning techniques. Ensemble learning methods combine the predictions of multiple machine learning algorithms to improve the performance and robustness of the prediction.
 
 ## Dataset
 The dataset used in this project is the "Healthcare Dataset Stroke Data," which contains the following columns:
@@ -44,19 +44,21 @@ Visualizations were created to understand the distribution of the data and relat
 - Histograms and line plots for continuous features like age, BMI, and average glucose level.
 
 ## Model Building
-Different machine learning models were trained and evaluated, including:
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-- K-Nearest Neighbors (KNN)
+The primary focus of this project is on ensemble learning. Various ensemble methods were trained and evaluated, including:
 - Bagging Classifier
 - Extra Trees Classifier
 - Gradient Boosting Classifier
 - AdaBoost Classifier
 - Voting Classifier
 
-The models were evaluated based on accuracy, precision, recall, and F1-score. 
+For comparison, individual models were also implemented:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+
+The models were evaluated based on accuracy, precision, recall, and F1-score.
 
 ## Results
 The results from different models were compared to find the best performing model. Below are the accuracy scores for some models:
@@ -81,7 +83,7 @@ pip install numpy pandas seaborn scikit-learn matplotlib
 ## Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/rakesh1713rao/healthcare-stroke-prediction.git
+git clone https://github.com/your-username/healthcare-stroke-prediction.git
 ```
 2. Navigate to the project directory:
 ```bash
@@ -91,4 +93,3 @@ cd healthcare-stroke-prediction
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
-
